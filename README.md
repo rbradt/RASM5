@@ -5,6 +5,6 @@
 g++ -c main.cpp
 as -g -o aInsertionSort.o aInsertionSort.s
 as -g -o aBubbleSort.o aBubbleSort.s
-g++ -o *.o
+g++ -o RASM5.exe *.o
 
 </pre>
