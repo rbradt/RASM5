@@ -1,5 +1,5 @@
 	.global aInsertionSort
-	@ r0 = array size
+	@ r1 = array size
 	@ r1 = pointer to first element of integer array
 	
 aInsertionSort:	

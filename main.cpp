@@ -41,7 +41,7 @@ int main()
 		switch(choice) {
 		/* ----- Load Input File ----- */
 		case '1':
-			fileSize = 10000;
+			fileSize = 200000;
 
 			if(rasm5 != nullptr)
 				delete rasm5;
@@ -67,7 +67,7 @@ int main()
 		/* ----- Assembly bubble sort ----- */
 		case '3':
 			if(rasm5 != nullptr) {
-				//times[1] = rasm5->time_algorithm(&aBubbleSort);
+				times[1] = rasm5->time_algorithm(&aBubbleSort);
 				rasm5->print_integers("bSortA.txt");
 				printf("Assembly bubble sort completed in %f seconds.\n", times[1]);
 			}
